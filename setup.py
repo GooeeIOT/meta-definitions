@@ -12,7 +12,7 @@ def requirements():
 
 
 setuptools.setup(
-    name="meta-definitions",  
+    name="meta-definitions",
     version="0.0.1",
     author="Gooee",
     description="Meta Definitions used in the Gooee Cloud",
