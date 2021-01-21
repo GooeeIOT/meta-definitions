@@ -1,0 +1,6 @@
+META_AREA_HEAD_COUNT = "area_head_count"
+META_AREA_HEAD_COUNT_IN = "area_headcount_in"
+META_AREA_HEAD_COUNT_OUT = "area_headcount_out"
+META_AREA_UTILIZATION = "area_utilization"
+META_DWELL_COUNT = "dwell_count"
+META_DWELL_TIME = "dwell_time"
