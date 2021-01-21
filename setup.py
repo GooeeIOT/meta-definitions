@@ -7,7 +7,7 @@ def long_description():
 
 
 def requirements():
-    with open("requirements.tx", "r") as fr:
+    with open("requirements.txt", "r") as fr:
         return fr.read()
 
 
