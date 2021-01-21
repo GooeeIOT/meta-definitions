@@ -20,7 +20,7 @@ setuptools.setup(
     long_description=long_description(),
     long_description_content_type="text/markdown",
     url="https://github.com/GooeeIOT/meta-definitions",
-    packages=["meta_definitions"],
+    packages=setuptools.find_packages(),
     classifiers=["Programming Language :: Python :: 3", "Operating System :: OS Independent",],
     python_requires=">=3.6",
 )
