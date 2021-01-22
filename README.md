@@ -14,9 +14,15 @@ used as a single source of truth across Gooee repositories.
    the updates.
 3. Then you will need to trigger the deployment of the repositories
    using this package (adjust package version in the respective `requirements.txt` file of
-   each repository to point ot the latest version):
+   each repository to point ot the latest version).
      - anx-api
      - anx-datalake-fhose-transform
      - anx-snowflake-sqlalchemy 
      - cloud-api (pending update)
      - cloud-mqtt (pending update)
+     
+     Sample installation requirement for version 0.0.1: 
+     ```
+     git+ssh://git@github.com/GooeeIOT/meta-definitions@0.0.1
+     ```
+    
