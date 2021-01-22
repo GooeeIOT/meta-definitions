@@ -12,6 +12,7 @@ used as a single source of truth across Gooee repositories.
 2. Open a PR against master. Once it is merged, make sure the new Release is added in 
    Github under the `Releases` section with the new `version` as `tag` and add some description of 
    the updates.
+3. Build the wheelhouse for the update using the Jenkins job: https://build2.gooee.io/job/libs/job/anx-meta-definitions/
 3. Then you will need to trigger the deployment of the repositories
    using this package (adjust package version in the respective `requirements.txt` file of
    each repository to point ot the latest version).
@@ -23,6 +24,6 @@ used as a single source of truth across Gooee repositories.
      
      Sample installation requirement for version 0.0.1: 
      ```
-     git+ssh://git@github.com/GooeeIOT/meta-definitions@0.0.1
+     meta-definitions==0.0.1
      ```
     
