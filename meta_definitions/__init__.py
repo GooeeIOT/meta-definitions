@@ -1,5 +1,6 @@
 from meta_definitions.area import live_calculated_metrics as area_live_calculated_metas
 from meta_definitions.area import metrics as area_metrics
+from meta_definitions.device import complex_metrics as complex_device_metrics
 from meta_definitions.device import live_calculated_metrics as device_live_calculated_metas
 from meta_definitions.device import metrics as device_metrics
 from meta_definitions.device import temporary_metrics as device_temporary_metas
@@ -30,3 +31,5 @@ METAS_DEVICE = get_all_metrics_from_file(device_metrics)
 METAS_DEVICE_LIVE_CALCULATED = get_all_metrics_from_file(device_live_calculated_metas)
 
 METAS_DEVICE_TEMPORARY = device_temporary_metas.METAS
+
+COMPLEX_METRICS = get_all_metrics_from_file(complex_device_metrics)
