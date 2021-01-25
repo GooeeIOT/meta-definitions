@@ -6,6 +6,7 @@ from meta_definitions.device import metrics as device_metrics
 from meta_definitions.device import temporary_metrics as device_temporary_metas
 
 __all__ = [
+    "COMPLEX_METRICS_DEVICE",
     "METAS_AREA",
     "METAS_AREA_LIVE_CALCULATED",
     "METAS_DEVICE",
@@ -32,4 +33,4 @@ METAS_DEVICE_LIVE_CALCULATED = get_all_metrics_from_file(device_live_calculated_
 
 METAS_DEVICE_TEMPORARY = device_temporary_metas.METAS
 
-COMPLEX_METRICS = get_all_metrics_from_file(complex_device_metrics)
+COMPLEX_METRICS_DEVICE = get_all_metrics_from_file(complex_device_metrics)
