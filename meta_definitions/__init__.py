@@ -27,6 +27,6 @@ METAS_AREA_LIVE_CALCULATED = get_all_metrics_from_file(area_live_calculated_meta
 
 METAS_DEVICE = get_all_metrics_from_file(device_metrics)
 
-METAS_DEVICE_LIVE_CALCULATED = get_all_metrics_from_file(device_metrics)
+METAS_DEVICE_LIVE_CALCULATED = get_all_metrics_from_file(device_live_calculated_metas)
 
 METAS_DEVICE_TEMPORARY = device_temporary_metas.METAS
