@@ -18,7 +18,7 @@ def get_all_metrics_from_file(metrics_file):
     return [
         getattr(metrics_file, meta_variable)
         for meta_variable in dir(metrics_file)
-        if meta_variable.startswith("META_")
+        if meta_variable.startswith("META_") or meta_variable.startswith("METRIC_")
     ]
 
 
