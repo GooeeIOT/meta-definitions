@@ -7,12 +7,12 @@ from meta_definitions.device import temporary_metrics as device_temporary_metas
 from meta_definitions.device.definitions import ALL as DEVICE_DEFINITIONS
 
 __all__ = [
-    "COMPLEX_METRICS_DEVICE",
-    "METAS_AREA",
-    "METAS_AREA_LIVE_CALCULATED",
-    "METAS_DEVICE",
-    "METAS_DEVICE_LIVE_CALCULATED",
-    "METAS_DEVICE_TEMPORARY",
+    "AREA_METAS",
+    "AREA_METRICS_LIVE_CALCULATED",
+    "DEVICE_METAS",
+    "DEVICE_METAS_TEMPORARY",
+    "DEVICE_METRICS_COMPLEX",
+    "DEVICE_METRICS_LIVE_CALCULATED",
 ]
 
 
