@@ -28,10 +28,10 @@ AREA_METAS = get_all_metrics_from_file(area_metrics)
 
 AREA_METRICS_LIVE_CALCULATED = get_all_metrics_from_file(area_live_calculated_metas)
 
-DEVICE_COMPLEX_METRICS = get_all_metrics_from_file(complex_device_metrics)
-
 DEVICE_METAS = get_all_metrics_from_file(device_metrics)
 
 DEVICE_METAS_TEMPORARY = device_temporary_metas.METAS
+
+DEVICE_METRICS_COMPLEX = get_all_metrics_from_file(complex_device_metrics)
 
 DEVICE_METRICS_LIVE_CALCULATED = get_all_metrics_from_file(device_live_calculated_metas)
