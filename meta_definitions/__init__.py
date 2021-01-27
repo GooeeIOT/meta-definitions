@@ -24,6 +24,8 @@ def get_all_metrics_from_file(metrics_file):
     ]
 
 
+ALL = DEVICE_META_DEFINITIONS
+
 METAS_AREA = get_all_metrics_from_file(area_metrics)
 
 METAS_AREA_LIVE_CALCULATED = get_all_metrics_from_file(area_live_calculated_metas)
@@ -35,5 +37,3 @@ METAS_DEVICE_LIVE_CALCULATED = get_all_metrics_from_file(device_live_calculated_
 METAS_DEVICE_TEMPORARY = device_temporary_metas.METAS
 
 COMPLEX_METRICS_DEVICE = get_all_metrics_from_file(complex_device_metrics)
-
-ALL = DEVICE_META_DEFINITIONS
