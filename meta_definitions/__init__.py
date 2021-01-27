@@ -4,6 +4,7 @@ from meta_definitions.device import complex_metrics as complex_device_metrics
 from meta_definitions.device import live_calculated_metrics as device_live_calculated_metas
 from meta_definitions.device import metrics as device_metrics
 from meta_definitions.device import temporary_metrics as device_temporary_metas
+from meta_definitions.device.definitions import ALL
 
 __all__ = [
     "COMPLEX_METRICS_DEVICE",
