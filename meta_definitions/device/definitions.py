@@ -264,14 +264,8 @@ ALL = {
         "unit_of_measure": "°C",
         "decimal_precision": 2,
     },
-    META_BOTH_PUMPS_FAIL: {
-        "display_name": "Both Pumps Fail",
-        "json_schema": {"type": "boolean"},
-    },
-    META_BREAKER_STATUS: {
-        "display_name": "Breaker Status",
-        "json_schema": {"type": "boolean"},
-    },
+    META_BOTH_PUMPS_FAIL: {"display_name": "Both Pumps Fail", "json_schema": {"type": "boolean"},},
+    META_BREAKER_STATUS: {"display_name": "Breaker Status", "json_schema": {"type": "boolean"},},
     META_CALC_FLOW_TEMPERATURE_SETPOINT: {
         "display_name": "Calculated Flow Temperature Setpoint",
         "json_schema": {"type": "number"},
@@ -471,10 +465,7 @@ ALL = {
         "display_name": "Cooling 3 Enable Override Value",
         "json_schema": {"type": "boolean"},
     },
-    META_COOLING_ENABLE: {
-        "display_name": "Cooling Enable",
-        "json_schema": {"type": "boolean"},
-    },
+    META_COOLING_ENABLE: {"display_name": "Cooling Enable", "json_schema": {"type": "boolean"},},
     META_COOLING_ENABLE_OVERRIDE_SET: {
         "display_name": "Cooling Enable Override Set",
         "json_schema": {"type": "boolean"},
@@ -1332,10 +1323,7 @@ ALL = {
         "groups": ["~system"],
     },
     META_GW_CPU_LOAD: {"display_name": "Gateway CPU Load", "groups": ["~system"],},
-    META_GW_CPU_TEMPERATURE: {
-        "display_name": "Gateway CPU Temperature",
-        "groups": ["~system"],
-    },
+    META_GW_CPU_TEMPERATURE: {"display_name": "Gateway CPU Temperature", "groups": ["~system"],},
     META_GW_DISK_PERCENT: {"display_name": "Gateway Disk Percent", "groups": ["~system"],},
     META_GW_MEMORY_PERCENT: {"display_name": "Gateway Memory Percent", "groups": ["~system"],},
     META_GW_NRFLIB_VERSION: {"display_name": "Gateway NRFLib Version", "groups": ["~system"],},
@@ -1357,10 +1345,7 @@ ALL = {
         "json_schema": {"type": "boolean"},
         "value_display_name": {"type": "enum", "true": "Heating", "false": "Cooling"},
     },
-    META_HEATING_ENABLE: {
-        "display_name": "Heating Enable",
-        "json_schema": {"type": "boolean"},
-    },
+    META_HEATING_ENABLE: {"display_name": "Heating Enable", "json_schema": {"type": "boolean"},},
     META_HEATING_ENABLE_OVERRIDE_SET: {
         "display_name": "Heating Enable Override Set",
         "json_schema": {"type": "boolean"},
@@ -1463,7 +1448,11 @@ ALL = {
         "unit_of_measure": "%",
         "decimal_precision": 0,
     },
-    META_HVAC_MODE: {"name": "hvac_mode", "display_name": "HVAC Mode",},
+    META_HVAC_MODE: {
+        "name": "hvac_mode",
+        "display_name": "HVAC Mode",
+        "json_schema": {"type": "number"},
+    },
     META_INFRARED_LIGHT_LEVEL: {
         "display_name": "Infrared Light Level",
         "json_schema": {"type": "number"},
@@ -1825,10 +1814,7 @@ ALL = {
         "unit_of_measure": "hr",
         "decimal_precision": 2,
     },
-    META_ON_LOAD_STATUS: {
-        "display_name": "On Load Status",
-        "json_schema": {"type": "boolean"},
-    },
+    META_ON_LOAD_STATUS: {"display_name": "On Load Status", "json_schema": {"type": "boolean"},},
     META_ON_TOWER_ISOLATION_VALVE_ENABLE: {
         "display_name": "On Tower Isolation Valve Enable",
         "json_schema": {"type": "boolean"},
@@ -1959,10 +1945,7 @@ ALL = {
         "unit_of_measure": "lx",
         "decimal_precision": 2,
     },
-    META_OVERRIDE_STATUS: {
-        "display_name": "Override Status",
-        "json_schema": {"type": "boolean"},
-    },
+    META_OVERRIDE_STATUS: {"display_name": "Override Status", "json_schema": {"type": "boolean"},},
     META_PANEL_FILTER_DIFF_PRESSURE: {
         "display_name": "Panel Filter Diff Pressure",
         "json_schema": {"type": "number"},
@@ -2485,10 +2468,7 @@ ALL = {
         "json_schema": {"type": "number"},
         "decimal_precision": 0,
     },
-    META_RUNNING_STATUS: {
-        "display_name": "Running Status",
-        "json_schema": {"type": "boolean"},
-    },
+    META_RUNNING_STATUS: {"display_name": "Running Status", "json_schema": {"type": "boolean"},},
     META_SENSOR_CAPABILITIES: {
         "display_name": "Sensor Capabilities",
         "json_schema": {"type": "number"},
@@ -2512,10 +2492,7 @@ ALL = {
         "display_name": "Smoothie Status",
         "json_schema": {"type": "boolean"},
     },
-    META_SOLENOID_STATUS: {
-        "display_name": "Solenoid Status",
-        "json_schema": {"type": "boolean"},
-    },
+    META_SOLENOID_STATUS: {"display_name": "Solenoid Status", "json_schema": {"type": "boolean"},},
     META_SPACE_AQI: {
         "display_name": "Space AQI",
         "json_schema": {"type": "number"},
