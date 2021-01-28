@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from metrics import *
+from .metrics import *
 
 ALL = {
     META_ACTIVE_CURRENT: {
