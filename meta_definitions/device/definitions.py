@@ -1451,7 +1451,7 @@ ALL = {
     META_HVAC_MODE: {
         "name": "hvac_mode",
         "display_name": "HVAC Mode",
-        "json_schema": {"type": "boolean"},
+        "json_schema": {"type": "number"},
     },
     META_INFRARED_LIGHT_LEVEL: {
         "display_name": "Infrared Light Level",
