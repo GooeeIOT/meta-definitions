@@ -8,5 +8,5 @@ def write_json_definitions(path, definitions):
 
     for name in definitions:
         schema = definitions[name]
-        with open(f'{path.rstrip("/")}/{name}', "w") as fw:
+        with open(f'{path.rstrip("/")}/{name}.json', "w") as fw:
             json.dump(schema, fw, indent=4)
