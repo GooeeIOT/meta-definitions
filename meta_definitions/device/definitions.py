@@ -718,7 +718,7 @@ ALL = {
         "json_schema": {"type": "boolean"},
     },
     META_DUMP_ENABLE: {"display_name": "Dump Enable", "json_schema": {"type": "boolean"},},
-    META_DUMP_TEMP_SETPOINT: {
+    META_DUMP_TEMPERATURE_SETPOINT: {
         "display_name": "Dump Temperature Setpoint",
         "json_schema": {"type": "number"},
         "unit_of_measure": "°C",
