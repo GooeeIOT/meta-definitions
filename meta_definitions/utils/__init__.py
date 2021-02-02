@@ -4,7 +4,7 @@ import os
 
 def write_json_definitions(path, definitions):
     """
-    Helper function to create JSON files for the validation of the value field
+    Helper function to create JSON files for the validation of the `value` field
     of the meta definitions.
     """
     if not os.path.isdir(path):
