@@ -15,6 +15,7 @@ METAS = (
     "hvac_setpoint",  # to be removed completely later on (pending confirmation)
     "hvac_state",  # to be renamed to device_enable
     "outside_relative_humidity",  # to be renamed to outside_air_humidity
+    "phase3_voltage",  # to be renamed to phase_3_voltage
     "primary_gas_meter",  # to be removed completely (confirmed)
     "red_green_blue",  # to be renamed to rgb
     "relative_humidity",  # to be renamed to return_air_humidity (unifying with return_relative_humidity)
