@@ -26,5 +26,6 @@ METAS = (
     "supplyfan_speed",  # to be renamed to supply_fan_speed_output
     "supplyfan_speed_setpoint",  # to be renamed to supply_fan_speed_setpoint
     "supplytemperature_setpoint",  # to be renamed to supply_air_temperature_setpoint
+    "phase3_voltage",  # to be renamed to phase_3_voltage
     "volumetric_flow",  # to be renamed to supply_air_volume
 )
