@@ -2033,7 +2033,7 @@ ALL = {
         "unit_of_measure": "°C",
         "decimal_precision": 2,
     },
-    META_PHASE3_VOLTAGE: {
+    META_PHASE_3_VOLTAGE: {
         "display_name": "Phase 3 Voltage",
         "json_schema": {"type": "number"},
         "unit_of_measure": "V",
