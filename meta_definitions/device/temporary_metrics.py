@@ -15,6 +15,7 @@ METAS = (
     "hvac_setpoint",  # to be removed completely later on (pending confirmation)
     "hvac_state",  # to be renamed to device_enable
     "outside_relative_humidity",  # to be renamed to outside_air_humidity
+    "phase3_voltage",  # to be renamed to phase_3_voltage
     "primary_gas_meter",  # to be removed completely (confirmed)
     "red_green_blue",  # to be renamed to rgb
     "relative_humidity",  # to be renamed to return_air_humidity (unifying with return_relative_humidity)
@@ -26,6 +27,5 @@ METAS = (
     "supplyfan_speed",  # to be renamed to supply_fan_speed_output
     "supplyfan_speed_setpoint",  # to be renamed to supply_fan_speed_setpoint
     "supplytemperature_setpoint",  # to be renamed to supply_air_temperature_setpoint
-    "phase3_voltage",  # to be renamed to phase_3_voltage
     "volumetric_flow",  # to be renamed to supply_air_volume
 )
