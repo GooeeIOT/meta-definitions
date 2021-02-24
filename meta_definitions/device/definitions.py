@@ -626,11 +626,6 @@ ALL = {
         "display_name": "Device Fault Status",
         "json_schema": {"type": "boolean"},
     },
-    META_DEVICE_HOA_SWITCH_E_STATUS: {
-        "display_name": "Device HOA Switch E Status",
-        "json_schema": {"type": "number"},
-        "decimal_precision": 0,
-    },
     META_DEVICE_HOA_SWITCH_STATUS: {
         "display_name": "Device HOA Switch Status",
         "json_schema": {"type": "number"},
@@ -1087,11 +1082,6 @@ ALL = {
     META_FAN_LOW_SPEED_ENABLE: {
         "display_name": "Fan Low Speed Enable",
         "json_schema": {"type": "boolean"},
-    },
-    META_FAN_MODE_E_SET: {
-        "display_name": "Fan Mode E Set",
-        "json_schema": {"type": "number"},
-        "decimal_precision": 0,
     },
     META_FAN_MODE_SET: {
         "display_name": "Fan Mode Set",
@@ -1579,10 +1569,6 @@ ALL = {
         "unit_of_measure": "°C",
         "decimal_precision": 2,
     },
-    META_LOUVERS_MODE_B_SET: {
-        "display_name": "Louvers Mode B Set",
-        "json_schema": {"type": "boolean"},
-    },
     META_LOUVERS_MODE_SET: {
         "display_name": "Louvers Mode Set",
         "json_schema": {"type": "boolean"},
@@ -1740,11 +1726,6 @@ ALL = {
         "value_display_name": {"type": "enum", "true": "Occupied", "false": "Not Occupied"},
         "groups": ["~motion"],
     },
-    META_OCCUPANCY_MODE_E_SET: {
-        "display_name": "Occupancy Mode E Set",
-        "json_schema": {"type": "number"},
-        "decimal_precision": 0,
-    },
     META_OCCUPANCY_MODE_SET: {
         "display_name": "Occupancy Mode Set",
         "json_schema": {"type": "number"},
@@ -1828,11 +1809,6 @@ ALL = {
         "json_schema": {"type": "boolean"},
         "value_display_name": {"type": "enum", "true": "On", "false": "Off"},
         "groups": ["~operational", "~internal", "ctrl_controllable"],
-    },
-    META_OPERATION_MODE_E_SET: {
-        "display_name": "Operation Mode E Set",
-        "json_schema": {"type": "number"},
-        "decimal_precision": 0,
     },
     META_OPERATION_MODE_E_STATUS: {
         "display_name": "Operation Mode E Status",
@@ -2316,11 +2292,6 @@ ALL = {
         "display_name": "Reheat Coil Output Override Value",
         "json_schema": {"type": "number", "minimum": 0, "maximum": 100},
         "unit_of_measure": "%",
-        "decimal_precision": 0,
-    },
-    META_REMOTE_CONTROLLER_PROHIBIT_MODE_E_STATUS: {
-        "display_name": "Remote Controller Prohibit Mode E Status",
-        "json_schema": {"type": "number"},
         "decimal_precision": 0,
     },
     META_REMOTE_CONTROLLER_PROHIBIT_MODE_STATUS: {
