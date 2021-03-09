@@ -1803,7 +1803,7 @@ ALL = {
         "display_name": "Is Online",
         "json_schema": {"type": "boolean"},
         "value_display_name": {"type": "enum", "true": "Online", "false": "Offline"},
-        "groups": ["~operational"],
+        "groups": ["~operational", "~rule_trigger"],
     },
     META_ISOLATION_DAMPER_ENABLE: {
         "display_name": "Isolation Damper Enable",
