@@ -4,7 +4,8 @@ from meta_definitions.device import complex_metrics as complex_device_metrics
 from meta_definitions.device import live_calculated_metrics as device_live_calculated_metas
 from meta_definitions.device import metrics as device_metrics
 from meta_definitions.device import temporary_metrics as device_temporary_metas
-from meta_definitions.device.definitions import ALL as DEVICE_DEFINITIONS
+from meta_definitions.device.definitions import ALL as CURRENT_DEVICE_DEFINITIONS
+from meta_definitions.device.temporary_definitions import ALL as TEMPORARY_DEVICE_DEFINITIONS
 
 __all__ = [
     "AREA_METAS",
@@ -35,3 +36,5 @@ DEVICE_METAS_TEMPORARY = device_temporary_metas.METAS
 DEVICE_METRICS_COMPLEX = get_all_metrics_from_file(complex_device_metrics)
 
 DEVICE_METRICS_LIVE_CALCULATED = get_all_metrics_from_file(device_live_calculated_metas)
+
+DEVICE_DEFINITIONS = {**CURRENT_DEVICE_DEFINITIONS, **TEMPORARY_DEVICE_DEFINITIONS}
