@@ -1441,7 +1441,7 @@ ALL = {
         "display_name": "Flow Setpoint",
         "json_schema": {"type": "number"},
         "unit_of_measure": "°C",
-        "groups": ["~rule_trigger"],
+        "groups": ["~rule_trigger", "ctrl_flow_temperature"],
     },
     META_FLOW_TEMPERATURE: {
         "display_name": "Flow Temperature",
@@ -2864,7 +2864,7 @@ ALL = {
         "json_schema": {"type": "number"},
         "unit_of_measure": "°C",
         "decimal_precision": 2,
-        "groups": ["~rule_trigger"],
+        "groups": ["~rule_trigger", "ctrl_return_temperature"],
     },
     META_REVERSE_POWER_STATUS: {
         "display_name": "Reverse Power Status",
@@ -3320,7 +3320,7 @@ ALL = {
         "json_schema": {"type": "number", "minimum": 0, "maximum": 100},
         "unit_of_measure": "%",
         "decimal_precision": 0,
-        "groups": ["~rule_trigger"],
+        "groups": ["~rule_trigger", "ctrl_supply_fan_speed"],
     },
     META_SURFACE_TEMPERATURE: {
         "display_name": "Surface Temperature",
